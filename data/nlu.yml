@@ -90,3 +90,10 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: what_name
+  examples: |
+    - what is your name?
+    - tell me your name?
+    - what everyone calls you?
+    - can i know your name please?

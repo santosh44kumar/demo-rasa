@@ -121,7 +121,7 @@ nlu:
     - facing issue to launch the .exe
     - which tool need to use to upload the souce
     - where to provide the source
-    - could not launch sourcetool.exe
+    - could not launch the sourcetool.exe
 
 - intent: sourceTool_Issue_shared
   examples: |

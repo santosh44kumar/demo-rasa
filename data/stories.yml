@@ -38,3 +38,15 @@ stories:
   steps:
   - intent: bot_welcome
   - action: utter_bot_welcome
+
+- story: bot source tool
+  steps:
+  - intent: source_tool
+  - action: utter_source_tool
+  - intent: deny
+  - action: utter_goodbye
+
+- story: bot Appls_issues_portal
+  steps:
+  - intent: maintenance
+  - action: utter_maintenance

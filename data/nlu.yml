@@ -102,3 +102,13 @@ nlu:
   examples: |
     - Account1234 welcome
 
+- intent: source_tool
+  examples: |
+    - uploaded new source
+    - updated new source for xyz application
+    - in source_tool updated the source
+    - for xyz application updated the source
+
+- intent: maintenance
+  examples: |
+    - under maintenance

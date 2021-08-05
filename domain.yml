@@ -10,6 +10,8 @@ intents:
   - bot_challenge
   - what_name
   - bot_welcome
+  - source_tool
+  - maintenance
 
 responses:
   utter_greet:
@@ -36,6 +38,21 @@ responses:
 
   utter_bot_welcome:
   - text: "Hi! Welcome to Account1234. Select the one appropriate for you....."
+    buttons:
+      - title: "Files_Uploaded"
+        payload: '/source_tool'
+      - title: "Appls"
+        payload: '/maintenance'
+      - title: "Appl_Issue"
+        payload: '/maintenance'
+      - title: "Portal"
+        payload: '/maintenance'
+
+  utter_source_tool:
+  - text: "ok, anything else"
+
+  utter_maintenance:
+    - text: "BOT in maintenance, thanks for your support........"
 
 session_config:
   session_expiration_time: 60

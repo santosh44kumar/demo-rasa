@@ -108,7 +108,7 @@ nlu:
 
 - intent: source_tool
   examples: |
-    - need to uploaded new source
+    - Related to source tool
 
 
 - intent: source_Tool_done

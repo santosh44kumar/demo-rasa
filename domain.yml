@@ -39,7 +39,7 @@ responses:
   - text: "I am a bot, powered by Rasa."
 
   utter_name:
-  - text: "My name is Santosh"
+  - text: "Iam a bot"
 
   utter_bot_welcome:
   - text: "Hi! Welcome to Account1234. Select the one appropriate for you....."

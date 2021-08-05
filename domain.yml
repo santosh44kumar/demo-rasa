@@ -9,6 +9,7 @@ intents:
   - mood_unhappy
   - bot_challenge
   - what_name
+  - bot_welcome
 
 responses:
   utter_greet:
@@ -34,7 +35,7 @@ responses:
   - text: "My name is Santosh"
 
   utter_bot_welcome:
-  - text: "Hi! Welcome to Account1234"
+  - text: "Hi! Welcome to Account1234. Select the one appropriate for you....."
 
 session_config:
   session_expiration_time: 60

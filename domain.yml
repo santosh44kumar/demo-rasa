@@ -14,6 +14,9 @@ intents:
   - source_tool
   - maintenance
   - another_query
+  - source_Tool_done
+  - SourceTool_Issue
+  - sourceTool_Issue_shared
 
 responses:
   utter_greet:
@@ -41,7 +44,7 @@ responses:
   utter_bot_welcome:
   - text: "Hi! Welcome to Account1234. Select the one appropriate for you....."
     buttons:
-      - title: "Files_Uploaded"
+      - title: "source_tool"
         payload: '/source_tool'
       - title: "Appls"
         payload: '/maintenance'
@@ -54,7 +57,21 @@ responses:
   - text: "Thanks for using our service......"
 
   utter_source_tool:
-  - text: "ok, anything else"
+  - text: "yes, please......."
+    buttons:
+      - title: "source_uploaded"
+        payload: '/source_Tool_done'
+      - title: "SourceTool_Issue"
+        payload: '/SourceTool_Issue'
+
+  utter_source_Tool_done:
+  - text: "ok, anything else....."
+
+  utter_SourceTool_Issue:
+    - text: "Could you try \\....\....\.....\source tool.exe, is it working?"
+
+  utter_sourceTool_Issue_shared:
+    - text: "Can copy to this location \\.......\...\ , for any access issue open a ticket to group"
 
   utter_maintenance:
     - text: "BOT in maintenance, thanks for your support........"
@@ -62,7 +79,7 @@ responses:
   utter_another_query:
     - text: "Sure, Select the one appropriate for you....."
       buttons:
-        - title: "Files_Uploaded"
+        - title: "source_tool"
           payload: '/source_tool'
         - title: "Appls"
           payload: '/maintenance'

@@ -108,10 +108,24 @@ nlu:
 
 - intent: source_tool
   examples: |
+    - need to uploaded new source
+
+
+- intent: source_Tool_done
+  examples: |
     - uploaded new source
-    - updated new source for xyz application
-    - in source_tool updated the source
-    - for xyz application updated the source
+
+- intent: SourceTool_Issue
+  examples: |
+    - tool not working
+    - facing issue to launch the .exe
+    - which tool need to use to upload the souce
+    - where to provide the source
+    - could not launch sourcetool.exe
+
+- intent: sourceTool_Issue_shared
+  examples: |
+    - shared location sourceTool Issue shared
 
 - intent: maintenance
   examples: |

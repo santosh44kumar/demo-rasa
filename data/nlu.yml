@@ -116,3 +116,13 @@ nlu:
 - intent: maintenance
   examples: |
     - under maintenance
+
+- intent: another_query
+  examples: |
+    - having another question
+    - quick question
+    - qq
+    - need another clarification
+    - quick clarification needed
+    - another question please
+    - another question

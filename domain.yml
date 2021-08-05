@@ -13,6 +13,7 @@ intents:
   - bot_thanks
   - source_tool
   - maintenance
+  - another_query
 
 responses:
   utter_greet:
@@ -57,6 +58,18 @@ responses:
 
   utter_maintenance:
     - text: "BOT in maintenance, thanks for your support........"
+
+  utter_another_query:
+    - text: "Sure, Select the one appropriate for you....."
+      buttons:
+        - title: "Files_Uploaded"
+          payload: '/source_tool'
+        - title: "Appls"
+          payload: '/maintenance'
+        - title: "Appl_Issue"
+          payload: '/maintenance'
+        - title: "Portal"
+          payload: '/maintenance'
 
 session_config:
   session_expiration_time: 60

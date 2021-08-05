@@ -51,7 +51,16 @@ stories:
   - intent: source_tool
   - action: utter_source_tool
   - intent: affirm
-  - action: utter_bot_welcome
+  - action: utter_another_query
+
+- story: bot source tool another
+  steps:
+  - intent: source_tool
+  - action: utter_source_tool
+  - intent: deny
+  - action: utter_bot_thanks
+  - intent: another_query
+  - action: utter_another_query
 
 - story: bot Appls_issues_portal
   steps:

@@ -42,6 +42,8 @@ stories:
 - story: bot source tool done
   steps:
   - intent: source_tool
+  - action: utter_source_tool
+  - intent: source_Tool_done
   - action: utter_source_Tool_done
   - intent: deny
   - action: utter_bot_thanks
@@ -49,9 +51,22 @@ stories:
 - story: bot source tool continue
   steps:
   - intent: source_tool
-  - action: utter_source_Tool_done
+  - action: utter_source_tool
+  - intent: SourceTool_Issue
+  - action: utter_SourceTool_Issue
   - intent: affirm
-  - action: utter_another_query
+  - action: utter_bot_thanks
+
+- story: bot source tool issue still
+  steps:
+  - intent: source_tool
+  - action: utter_source_tool
+  - intent: SourceTool_Issue
+  - action: utter_SourceTool_Issue
+  - intent: deny
+  - action: utter_sourceTool_Issue_shared
+  - intent: affirm
+  - action: utter_bot_thanks
 
 - story: bot source tool another
   steps:

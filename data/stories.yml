@@ -39,12 +39,19 @@ stories:
   - intent: bot_welcome
   - action: utter_bot_welcome
 
-- story: bot source tool
+- story: bot source tool done
   steps:
   - intent: source_tool
   - action: utter_source_tool
   - intent: deny
-  - action: utter_goodbye
+  - action: utter_bot_thanks
+
+- story: bot source tool continue
+  steps:
+  - intent: source_tool
+  - action: utter_source_tool
+  - intent: affirm
+  - action: utter_bot_welcome
 
 - story: bot Appls_issues_portal
   steps:

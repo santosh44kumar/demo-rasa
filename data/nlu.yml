@@ -97,3 +97,8 @@ nlu:
     - tell me your name?
     - what everyone calls you?
     - can i know your name please?
+
+- intent: bot_welcome
+  examples: |
+    - Account1234 welcome
+

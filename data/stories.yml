@@ -33,3 +33,8 @@ stories:
   steps:
   - intent: what_name
   - action: utter_name
+
+- story: bot welcome
+  steps:
+  - intent: bot_welcome
+  - action: utter_bot_welcome

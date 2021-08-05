@@ -134,7 +134,7 @@ nlu:
 - intent: another_query
   examples: |
     - having another question
-    - quick questions
+    - i have quick questions
     - qq
     - need another clarification
     - quick clarification needed

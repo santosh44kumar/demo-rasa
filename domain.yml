@@ -64,6 +64,9 @@ responses:
   utter_source_Tool_done:
   - text: "ok, anything else....."
 
+  utter_iamabot:
+    - text: "I am a bot, powered by Rasa."
+
   utter_SourceTool_Issue:
   - text: "Could you try this source tool.exe, is it working?"
 

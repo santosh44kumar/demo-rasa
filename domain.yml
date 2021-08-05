@@ -39,7 +39,7 @@ responses:
   - text: "Iam a bot"
 
   utter_bot_welcome:
-  - text: "Hi! Welcome to Account1234. Select the one appropriate for you....."
+  - text: "Hi! Welcome to Account1234. Select the one appropriate for you......"
     buttons:
       - title: "source_tool"
         payload: '/source_tool'
@@ -74,7 +74,7 @@ responses:
   - text: "BOT in maintenance, thanks for your support........"
 
   utter_another_query:
-  - text: "Sure, Select the one appropriate for you....."
+  - text: "Sure, Select the one appropriate for you......"
     buttons:
       - title: "source_tool"
         payload: '/source_tool'

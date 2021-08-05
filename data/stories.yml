@@ -77,7 +77,7 @@ stories:
   - intent: another_query
   - action: utter_another_query
 
-- story: bot source tool issue resolved
+- story: bot source tool issue resol
   steps:
   - intent: source_tool
   - action: utter_SourceTool_Issue

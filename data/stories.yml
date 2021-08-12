@@ -92,5 +92,5 @@ stories:
   - action: utter_sourceTool_Issue_shared
   - intent: affirm
   - action: utter_bot_thanks
-  - action: utter_bot_thanks
+
 

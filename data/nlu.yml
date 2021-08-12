@@ -65,7 +65,7 @@ nlu:
     - extremely good
     - so so perfect
     - so good
-    - so perfect
+
 
 - intent: mood_unhappy
   examples: |

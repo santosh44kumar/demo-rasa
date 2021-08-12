@@ -39,7 +39,7 @@ responses:
   - text: "Iam a bot"
 
   utter_bot_welcome:
-  - text: "Hey there, I'm Bolt for Account1234 virtual assistant"
+  - text: "Hey there, I'm Bolt for Account1234 virtual assistant....."
   - text: "How can we help?"
     buttons:
       - title: "source_tool"

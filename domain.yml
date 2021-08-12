@@ -1,3 +1,89 @@
+<<<<<<< HEAD
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - what_name
+  - bot_welcome
+  - bot_thanks
+  - source_tool
+  - maintenance
+  - another_query
+  - source_Tool_done
+  - SourceTool_Issue
+  - sourceTool_Issue_shared
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_name:
+  - text: "Iam a bot"
+
+  utter_bot_welcome:
+  - text: "Hey there, I'm Bolt for Account1234 virtual assistant"
+  - text: "How can we help?"
+    buttons:
+      - title: "source_tool"
+        payload: '/source_tool'
+
+
+  utter_bot_thanks:
+  - text: "Thanks for using our service......"
+
+  utter_source_tool:
+  - text: "yes, please......."
+    buttons:
+      - title: "source_uploaded"
+        payload: '/source_Tool_done'
+      - title: "SourceTool_Issue"
+        payload: '/SourceTool_Issue'
+
+  utter_source_Tool_done:
+  - text: "ok, anything else....."
+
+  utter_iamabot:
+    - text: "I am a bot, powered by Rasa."
+
+  utter_SourceTool_Issue:
+  - text: "Try to launch this sourcetool.exe file, is it working?"
+
+  utter_sourceTool_Issue_shared:
+  - text: "Copy the source to our shared location \\........\......\ folder , for any access issue open a ticket to ABC group"
+
+  utter_maintenance:
+  - text: "BOT in maintenance, thanks for your support........"
+
+  utter_another_query:
+  - text: "Sure, how can we help?"
+    buttons:
+      - title: "source_tool"
+        payload: '/source_tool'
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+=======
 version: "2.0"
 
 intents:
@@ -91,3 +177,4 @@ responses:
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+>>>>>>> 7c6df890246e32f37f00ac74b39ac62bc49ccbf1

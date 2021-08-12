@@ -39,8 +39,7 @@ responses:
   - text: "Iam a bot"
 
   utter_bot_welcome:
-  - text: "Hey there, I'm Bolt for Account1234 virtual assistant....."
-  - text: "How can we help?"
+  - text: "Hey there, I'm Bolt for Account1234 virtual assistant....., how can we help?"
     buttons:
       - title: "source_tool"
         payload: '/source_tool'
@@ -61,7 +60,7 @@ responses:
   - text: "ok, anything else....."
 
   utter_iamabot:
-    - text: "I am a bot, powered by Rasa."
+  - text: "I am a bot, powered by Rasa."
 
   utter_SourceTool_Issue:
   - text: "Try to launch this executable sourcetool.exe file, is it working?"

@@ -12,7 +12,6 @@ intents:
   - bot_welcome
   - bot_thanks
   - source_tool
-  - maintenance
   - another_query
   - source_Tool_done
   - SourceTool_Issue
@@ -68,9 +67,6 @@ responses:
 
   utter_sourceTool_Issue_shared:
   - text: "Copy the source to our shared location \\........\...........\ folder , for any access issue open a ticket to ABC group"
-
-  utter_maintenance:
-  - text: "BOT in maintenance, thanks for your support........"
 
   utter_another_query:
   - text: "Sure, how can we help?"

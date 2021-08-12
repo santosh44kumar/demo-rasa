@@ -12,6 +12,7 @@ intents:
   - bot_welcome
   - bot_thanks
   - source_tool
+  - maintenance
   - another_query
   - source_Tool_done
   - SourceTool_Issue
@@ -39,9 +40,11 @@ responses:
 
   utter_bot_welcome:
   - text: "Hey there, I'm Bolt for Account1234 virtual assistant....."
+  - text: "How can we help?"
     buttons:
       - title: "source_tool"
         payload: '/source_tool'
+
 
   utter_bot_thanks:
   - text: "Thanks for using our service......"
@@ -58,13 +61,16 @@ responses:
   - text: "ok, anything else....."
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+    - text: "I am a bot, powered by Rasa."
 
   utter_SourceTool_Issue:
-  - text: "Try to launch this executable sourcetool file, is it working?"
+  - text: "Try to launch this executable sourcetool.exe file, is it working?"
 
   utter_sourceTool_Issue_shared:
-  - text: "Copy the source to our shared location folder , for any access issue open a ticket to ABC group"
+  - text: "Copy the source to our shared location \\........\...........\ folder , for any access issue open a ticket to ABC group"
+
+  utter_maintenance:
+  - text: "BOT in maintenance, thanks for your support........"
 
   utter_another_query:
   - text: "Sure, how can we help?"

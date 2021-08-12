@@ -94,7 +94,3 @@ stories:
   - action: utter_bot_thanks
   - action: utter_bot_thanks
 
-- story: bot Appls_issues_portal
-  steps:
-  - intent: maintenance
-  - action: utter_maintenance

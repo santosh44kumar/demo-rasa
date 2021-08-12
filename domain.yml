@@ -43,7 +43,6 @@ responses:
       - title: "source_tool"
         payload: '/source_tool'
 
-
   utter_bot_thanks:
   - text: "Thanks for using our service......"
 
